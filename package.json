@@ -24,7 +24,9 @@
   "author": "TakuKobayashi",
   "license": "MIT",
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/jest": "^24.0.15",
+    "@types/js-yaml": "^3.12.1",
     "@types/node": "^12.0.12",
     "documentation": "^11.0.1",
     "prettier": "^1.18.2",
