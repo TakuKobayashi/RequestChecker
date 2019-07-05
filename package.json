@@ -1,0 +1,51 @@
+{
+  "name": "request-checker",
+  "version": "0.0.1",
+  "description": "This library can build and execute ffmpeg command.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier --config .prettierrc --write '**/*.{ts,js}'",
+    "docs": "typedoc --out docs/",
+    "jest": "jest -c jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TakuKobayashi/NodeFFmpegCommander"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "typescript",
+    "test",
+    "swagger",
+    "security"
+  ],
+  "author": "TakuKobayashi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.12",
+    "documentation": "^11.0.1",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.5.2",
+    "typings": "^2.1.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/TakuKobayashi/NodeFFmpegCommander#readme",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "jest": "^24.8.0",
+    "js-yaml": "^3.13.1",
+    "swagger": "^0.7.5"
+  }
+}
