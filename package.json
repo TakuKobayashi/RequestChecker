@@ -45,7 +45,7 @@
   "homepage": "https://github.com/TakuKobayashi/NodeFFmpegCommander#readme",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "jest": "^24.8.0",
     "js-yaml": "^3.13.1",
     "swagger": "^0.7.5"
